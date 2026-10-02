@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanguard Hobby Co. | Tabletop Gear & Collectibles</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card-bg: #1a1d24;
+      --card-hover: #232731;
+      --text: #f0f2f5;
+      --subtext: #9ca3af;
+      --accent: #e05638;
+      --border: #2a2e39;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      padding: 48px 16px;
+      min-height: 100vh;
+    }
+    .container {
+      width: 100%;
+      max-width: 580px;
+      text-align: center;
+    }
+    .brand-mark {
+      width: 64px;
+      height: 64px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--accent), #ff7a59);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 800;
+      color: #fff;
+      margin: 0 auto 16px;
+      box-shadow: 0 8px 24px rgba(224, 86, 56, 0.25);
+    }
+    h1 {
+      font-size: 1.75rem;
+      letter-spacing: -0.5px;
+      margin-bottom: 6px;
+    }
+    p.tagline {
+      color: var(--subtext);
+      font-size: 0.95rem;
+      margin-bottom: 32px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .link-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+    }
+    .link-card:hover {
+      background-color: var(--card-hover);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .link-info {
+      text-align: left;
+    }
+    .link-title {
+      font-weight: 600;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .link-desc {
+      color: var(--subtext);
+      font-size: 0.8rem;
+      margin-top: 2px;
+    }
+    .arrow {
+      color: var(--subtext);
+      font-size: 1.1rem;
+    }
+    footer {
+      margin-top: 40px;
+      color: var(--subtext);
+      font-size: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand-mark">V</div>
+    <h1>Vanguard Hobby Co.</h1>
+    <p class="tagline">Tabletop Accessories, 3D Prints & Curated Collectibles</p>
+
+    <div class="links">
+      <a href="https://manapool.com" target="_blank" class="link-card">
+        <div class="link-info">
+          <div class="link-title">🃏 TCG Singles & Cards</div>
+          <div class="link-desc">Browse our collection on ManaPool</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="#" class="link-card">
+        <div class="link-info">
+          <div class="link-title">🎲 3D Printed Tabletop Gear</div>
+          <div class="link-desc">Deck boxes, counters & gaming accessories</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="mailto:info@thebuildchamber.com" class="link-card">
+        <div class="link-info">
+          <div class="link-title">✉️ Custom Orders & Inquiries</div>
+          <div class="link-desc">Get in touch for custom print projects</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+
+    <footer>
+      © Vanguard Hobby Co. • Operated by The Build Chamber LLC
+    </footer>
+  </div>
+</body>
+</html>
